@@ -24,5 +24,6 @@
 	},
 	"url": "https://github.com/jarodfrye24/Lost-Souls",
 	"manifest": "https://github.com/jarodfrye24/Lost-Souls/releases/download/Foundry/module.json",
-	"download": "https://github.com/jarodfrye24/Lost-Souls/releases/download/Foundry/LostSoul.zip"
+	"download": "https://github.com/jarodfrye24/Lost-Souls/releases/download/Foundry/LostSoul.zip",
+	"id": "LostSoul"
 }

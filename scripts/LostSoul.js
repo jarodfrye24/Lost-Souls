@@ -25,7 +25,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
 		system: "Lost Souls"
-	}"d6");
+	}, "d6");
 	
 		dice3d.addDicePreset({
 		type: "d10",
@@ -36,7 +36,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		'D10-3.webp',
 		'D10-4.webp',
 		'D10-5.webp',
-		'D10-6.webp'
+		'D10-6.webp',
 		'D10-7.webp',
 		'D10-8.webp',
 		'D10-9.webp',
@@ -48,7 +48,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		'D10-3.webp',
 		'D10-4.webp',
 		'D10-5.webp',
-		'D10-6.webp'
+		'D10-6.webp',
 		'D10-7.webp',
 		'D10-8.webp',
 		'D10-9.webp',
@@ -57,5 +57,5 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
 		system: "Lost Souls"
-}"d10");
+}, "d10");
 });
