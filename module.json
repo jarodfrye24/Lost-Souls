@@ -4,8 +4,8 @@
 	"description": "A template for a custom set of dice",
 	"version": "1.0.0",
 	"compatibility": {
-    "minimum": "10",
-    "verified": "12.316"
+    "minimum": "11",
+    "verified": "13.342"
   },
 	"authors": [
 		{
