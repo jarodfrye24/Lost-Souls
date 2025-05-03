@@ -1,7 +1,19 @@
 Hooks.on('diceSoNiceReady', (dice3d) =>  {
 	
 	dice3d.addSystem({ id: "Lost Souls", name: "Lost Souls"}, "default");
-
+	
+		dice3d.addColorset({
+		name: 'LostSoul_default',
+		description: 'default',
+		category: 'DICESONICE.AcquiredTaste',
+		foreground: '#ffffff',
+		background: '#000000',
+		outline: '#ffffff',
+		edge: '#000000',
+		texture: 'none',
+		visibility: 'hidden',
+		material: 'pristine'
+	},
 	
 		dice3d.addDicePreset({
 		type: "d6",
@@ -24,6 +36,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		],
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
+		colorset: "LostSoul_default",
 		system: "Lost Souls"
 	}, "d6");
 	
@@ -56,6 +69,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		],
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
+		colorset: "LostSoul_default",
 		system: "Lost Souls"
 }, "d10");
 });
