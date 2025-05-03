@@ -1,0 +1,28 @@
+{
+	"name": "LostSoul",
+	"title": "Lost Souls",
+	"description": "A template for a custom set of dice",
+	"version": "1.0.0",
+	"compatibility": {
+    "minimum": "10",
+    "verified": "12.316"
+  },
+	"authors": [
+		{
+			"name": "Trexasle"
+		}
+	],
+	"scripts": [
+		"/scripts/LostSoul.js"
+	],
+	  "relationships": {
+	  "requires": [{
+		"id": "dice-so-nice",
+		"type": "module",
+		"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+	  }]
+	},
+	"url": "https://github.com/jarodfrye24/lost-souls/",
+	"manifest": "https://github.com/jarodfrye24/lost-souls/blob/460550edcd174ee09f50c7b2c42f620249fe1bdb/module.json",
+	"download": ""
+}
