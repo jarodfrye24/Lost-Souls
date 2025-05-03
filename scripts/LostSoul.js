@@ -1,5 +1,5 @@
 Hooks.on('diceSoNiceReady', (dice3d) =>  {
-	dice3d.addSystem({id:"LostSouls",name:"Lost Souls"}, "default");
+	dice3d.addSystem({ id:"LostSouls", name:"Lost Souls"}, "default");
 
 	
 		dice3d.addDicePreset({
