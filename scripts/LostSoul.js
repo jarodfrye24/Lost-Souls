@@ -13,7 +13,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		texture: 'none',
 		visibility: 'hidden',
 		material: 'pristine'
-	},
+	});
 	
 		dice3d.addDicePreset({
 		type: "d6",
