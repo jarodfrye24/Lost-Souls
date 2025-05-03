@@ -23,5 +23,5 @@
 	  }]
 	},
 	"url": "https://github.com/jarodfrye24/Lost-Souls",
-	"manifest": "https://github.com/jarodfrye24/Lost-Souls/blob/main/module.json"
+	"manifest": "https://raw.githubusercontent.com/jarodfrye24/Lost-Souls/refs/heads/main/module.json",
 }
