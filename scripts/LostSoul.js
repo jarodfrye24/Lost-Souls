@@ -1,5 +1,6 @@
 Hooks.on('diceSoNiceReady', (dice3d) =>  {
-	dice3d.addSystem({ id:"LostSouls", name:"Lost Souls"}, "default");
+	
+	dice3d.addSystem({ id: "Lost Souls", name: "Lost Souls"}, "default");
 
 	
 		dice3d.addDicePreset({
@@ -23,7 +24,7 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		],
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
-		system: "LostSouls"
+		system: "Lost Souls"
 	}"d6");
 	
 		dice3d.addDicePreset({
@@ -55,6 +56,6 @@ Hooks.on('diceSoNiceReady', (dice3d) =>  {
 		],
 		emissiveIntensity: 2,
 		emissive: 0xffffff,
-		system: "LostSouls"
+		system: "Lost Souls"
 }"d10");
 });
