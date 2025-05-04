@@ -131,10 +131,10 @@
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "LostSouls-0.webp",
+	"image": "LostSouls-0-0.webp",
 	"format": "RGBA8888",
 	"size": {"w":1548,"h":774},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:ed21dccfdcaae28863133644a7ae714f:bb35058bfeb8d75210680a5d66470068:8eb437f4dda5c6c58922d99202dbc7ba$"
+	"smartupdate": "$TexturePacker:SmartUpdate:1ba4b2b0b0c3f384a69d3cc4834bbe79:c025638db2ee2139e0820d6436acb20e:85704ee5dda8e2d0a588f6b6c8e96b0f$"
 }
 }
